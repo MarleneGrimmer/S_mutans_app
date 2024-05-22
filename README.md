@@ -13,7 +13,7 @@
   ```
 7. Launch the app by typing the following command into R Studio's console:
    ```
-    runGitHub("S_mutans_app", "MarleneGrimmer")
+   runGitHub("S_mutans_app", "MarleneGrimmer")
    ```
 
 
