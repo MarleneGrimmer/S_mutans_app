@@ -7,11 +7,7 @@
   ```
   install.packages("shiny")
   ```
-5. Install ggplot2, if necessary, by typing the following command into R Studio's console:
-  ```
-  install.packages("ggplot2")
-  ```
-7. Launch the app by typing the following command into R Studio's console:
+4. Launch the app by typing the following command into R Studio's console:
   ```
   runGitHub("S_mutans_app", "MarleneGrimmer")
   ```
