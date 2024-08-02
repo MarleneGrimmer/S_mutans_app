@@ -317,11 +317,11 @@ server <- function(input, output) {
     if ("Number of BGCs per genome" %in% input$phylogenyChoices) {
       phylogeny_plot <- phylogeny_plot + 
         geom_fruit(data = BGCS_per_genome, geom = geom_col, 
-                   mapping = aes(x = GECCO, y = genome), fill = "#5A7E33", 
-                   color = "#5A7E33") +
+                   mapping = aes(x = GECCO, y = genome), fill = "#7CAE00", 
+                   color = "#7CAE00") +
         geom_fruit(data = BGCS_per_genome, geom = geom_col, 
-                   mapping = aes(x = antiSMASH, y = genome), fill = "#AA0000", 
-                   color = "#AA0000")
+                   mapping = aes(x = antiSMASH, y = genome), fill = "#F8766D", 
+                   color = "#F8766D")
     }
     
     
